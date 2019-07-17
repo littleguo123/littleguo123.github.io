@@ -10,20 +10,22 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="littleguo">
   
-  <meta name="author" content="陈小果littleguo">
+
   
-  
-  
-  
+
     <meta name="description" content="">
-  
-  <title>stay hungry stay foolish [ 岁月极美，在于它必然的流逝。春花，秋月，夏日，冬雪。你若盛开，清风自来。 ]</title>
-  
-  
+
+  <title>stay hungry stay foolish [ 怕什么真理无穷，进一寸有一寸的欢喜 ]</title>
+
+
     <link rel="shortcut icon" href="/favicon.ico">
+
   
-  
+
+
   <link rel="stylesheet" href="/css/random.css">
 <link rel="stylesheet" href="/css/vegas.min.css">
 <link rel="stylesheet" href="/css/highlight-railscasts.css">
@@ -31,7 +33,7 @@
 <link rel="stylesheet" href="/css/iconfont/iconfont.css">
 <link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
 <link rel="stylesheet" href="/css/plyr.css">
-  
+
 </head>
 
 <div class="random-center hide-area">
@@ -40,42 +42,47 @@
       <img class="avatar" src="/images/myphoto.png" width=120 height=120 onClick="openUserCard()">
     </div>
     <div class="center-field">
-      <div class="title" onClick="openUserCard()">岁月极美，在于它必然的流逝。春花，秋月，夏日，冬雪。你若盛开，清风自来。</div>
+      <div class="title" onClick="openUserCard()">怕什么真理无穷，进一寸有一寸的欢喜</div>
       <div class="sub-title" onClick="openUserCard()">stay hungry stay foolish</div>
     </div>
     <hr >
     <div class="center-field">
       <ul class="index-nav-link">
-        
-        
-          
-            <li><a href="/index.html">Home</a></li>
-          
-        
-          
-            <li><a href="/archives">Archives</a></li>
-          
-        
-          
-            <li><a href="/tags">Tags</a></li>
-          
-        
-          
-            <li><a href="/categories">Categories</a></li>
-          
-        
-          
-            <li><a href="/about">About</a></li>
-          
-        
-          
-            <li><a href="https://github.com/stiekel/hexo-theme-random">Github</a></li>
-          
-        
-      </ul>
-      <ul class="social-icon">
+
+
+​          
+​            <li><a href="/index.html">Home</a></li>
+
+
+​          
+​            <li><a href="/archives">Archives</a></li>
+
+
+​          
+​            <li><a href="/tags">Tags</a></li>
+
+
+​        
+​          
+​            <li><a href="/categories">Categories</a></li>
+
+
+​        
+​          
+​            <li><a href="/about">About</a></li>
+
+
+​        
+​          
+​            <li><a href="https://github.com/stiekel/hexo-theme-random">Github</a></li>
+
+
+​        
+​      </ul>
+​      <ul class="social-icon">
+
   
-  
+
     <li>
       <a href="https://github.com/stiekel/hexo-theme-random">
         
@@ -83,7 +90,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="https://coding.net/u/Stiekel">
         
@@ -91,7 +98,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="https://twitter.com/SidCN">
         
@@ -99,7 +106,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="http://weibo.com/sidcn">
         
@@ -107,7 +114,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="http://www.douban.com/people/Stiekel/">
         
@@ -115,7 +122,7 @@
         
       </a>
     </li>
-  
+
 </ul>
     </div>
   </div>
@@ -126,7 +133,7 @@
     <p id="description"></p>
     <ul class="social-icon">
   
-  
+
     <li>
       <a href="https://github.com/stiekel/hexo-theme-random">
         
@@ -134,7 +141,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="https://coding.net/u/Stiekel">
         
@@ -142,7 +149,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="https://twitter.com/SidCN">
         
@@ -150,7 +157,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="http://weibo.com/sidcn">
         
@@ -158,7 +165,7 @@
         
       </a>
     </li>
-  
+      
     <li>
       <a href="http://www.douban.com/people/Stiekel/">
         
@@ -166,7 +173,7 @@
         
       </a>
     </li>
-  
+
 </ul>
   </div>
 </div>
@@ -191,30 +198,30 @@ var isTriggerAnalytics = !( true && isIgnoreHost );
 
 
 
-  
-  
+
+
     <script src="/js/jquery-2.2.3.min.js"></script>
-  
+      
     <script src="/js/vegas.min.js"></script>
-  
+      
     <script src="/js/random.js"></script>
-  
+      
     <script src="/js/highlight.pack.js"></script>
-  
+      
     <script src="/js/jquery.mousewheel.pack.js"></script>
-  
+      
     <script src="/js/jquery.fancybox.pack.js"></script>
-  
+      
     <script src="/js/jquery.fancybox-thumbs.js"></script>
-  
+      
     <script src="/js/plyr.js"></script>
-  
+
 
 <script>
 
   // fancybox
   var backgroundImages = [];
-  
+
   $('#post').each(function(i){
     $(this).find('img').each(function(){
       if ($(this).parent().hasClass('fancybox') || $(this).parent().hasClass('fancybox-thumb')) return;
